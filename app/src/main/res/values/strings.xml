@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Practica2</string>
+    <string name="titulo">Centros Comerciales de Valencia</string>
+    <string name="txt_cc">Imagen Centro Comercial</string>
+    <string name="nombreCC1">C.C. Bonaire</string>
+    <string name="localizacionCC1">Autovía del Este, Km. 345, 46960, Valencia</string>
+    <string name="numTiendasCC1">4 Tiendas</string>
+    <string name="nombreCC4">C.C El Saler</string>
+    <string name="localizacionCC4">Av. del Professor López Piñero, 16, 46013 València, Valencia</string>
+    <string name="nombreCC3">C.C. Aqua</string>
+    <string name="localizacionCC3">Carrer de Menorca, 19, 46023 València, Valencia</string>
+    <string name="nombreCC2">C.C. MN4</string>
+    <string name="localizacionCC2">C. Alcalde José Puertes, 46910 Alfafar, Valencia</string>
+    <string name="nombreTienda1">Zara</string>
+    <string name="desTienda1">Vender ropa.</string>
+    <string name="nombreTienda4">Carl\'s Jr.</string>
+    <string name="desTienda4">Restaurante de comida rápida.</string>
+    <string name="nombreTienda3">Fnac</string>
+    <string name="desTienda3">Vender tecnología, libros, música...</string>
+    <string name="nombreTienda2">Jiafei Shop</string>
+    <string name="desTienda2">Vender productos del hogar.</string>
+    <string name="tituloTiendas">Tiendas</string>
+</resources>

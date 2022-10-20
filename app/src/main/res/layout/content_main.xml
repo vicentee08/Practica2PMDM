@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        >
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_margin"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/common_margin"
+            android:visibility="visible"
+            android:clickable="true"
+            android:focusable="true"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/common_padding"
+                android:paddingStart="@dimen/common_padding"
+                android:paddingEnd="@dimen/common_padding"
+                android:paddingBottom="@dimen/common_padding"
+                android:background="@color/n_50"
+                >
+
+                <TextView
+                    android:id="@+id/tvTitulo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/titulo"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/id_cc1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height"
+            android:layout_marginTop="@dimen/common_margin"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/common_margin"
+            android:visibility="visible"
+            android:clickable="true"
+            android:focusable="true"
+
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/v_50"
+                >
+
+                <ImageView
+                    android:id="@+id/img_cc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/card_height"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:contentDescription="@string/txt_cc"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_localizacionCC1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/img_cc1"
+                    app:layout_constraintEnd_toStartOf="@id/tv_numTiendasCC1"
+                    app:layout_constraintBottom_toBottomOf="@id/img_cc1"
+                    android:text="@string/localizacionCC1"
+                    android:textSize="@dimen/tam_texto"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_nombreCC1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/img_cc1"
+                    app:layout_constraintBottom_toTopOf="@id/tv_localizacionCC1"
+                    android:text="@string/nombreCC1"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_numTiendasCC1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="@string/numTiendasCC1"
+                    android:layout_margin="@dimen/common_padding"
+                    android:padding="@dimen/common_padding"
+                    android:background="@color/white"
+
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/id_cc2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height"
+            android:layout_marginTop="@dimen/common_margin"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/common_margin"
+            android:visibility="visible"
+            android:clickable="true"
+            android:focusable="true"
+
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/v_50"
+                >
+
+                <ImageView
+                    android:id="@+id/img_cc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/card_height"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:contentDescription="@string/txt_cc"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_localizacionCC2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/img_cc2"
+                    app:layout_constraintEnd_toStartOf="@id/tv_numTiendasCC2"
+                    app:layout_constraintBottom_toBottomOf="@id/img_cc2"
+                    android:text="@string/localizacionCC2"
+                    android:textSize="@dimen/tam_texto"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_nombreCC2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/img_cc2"
+                    app:layout_constraintBottom_toTopOf="@id/tv_localizacionCC2"
+                    android:text="@string/nombreCC2"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_numTiendasCC2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="@string/numTiendasCC1"
+                    android:layout_margin="@dimen/common_padding"
+                    android:padding="@dimen/common_padding"
+                    android:background="@color/white"
+
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/id_cc3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height"
+            android:layout_marginTop="@dimen/common_margin"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/common_margin"
+            android:visibility="visible"
+            android:clickable="true"
+            android:focusable="true"
+
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/v_50"
+                >
+
+                <ImageView
+                    android:id="@+id/img_cc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/card_height"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:contentDescription="@string/txt_cc"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_localizacionCC3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/img_cc3"
+                    app:layout_constraintEnd_toStartOf="@id/tv_numTiendasCC3"
+                    app:layout_constraintBottom_toBottomOf="@id/img_cc3"
+                    android:text="@string/localizacionCC3"
+                    android:textSize="@dimen/tam_texto"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_nombreCC3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/img_cc3"
+                    app:layout_constraintBottom_toTopOf="@id/tv_localizacionCC3"
+                    android:text="@string/nombreCC3"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_numTiendasCC3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="@string/numTiendasCC1"
+                    android:layout_margin="@dimen/common_padding"
+                    android:padding="@dimen/common_padding"
+                    android:background="@color/white"
+
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/id_cc4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_height"
+            android:layout_marginTop="@dimen/common_margin"
+            android:layout_marginStart="@dimen/common_margin"
+            android:layout_marginEnd="@dimen/common_margin"
+            android:visibility="visible"
+            android:clickable="true"
+            android:focusable="true"
+
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/v_50"
+                >
+
+                <ImageView
+                    android:id="@+id/img_cc4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/card_height"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:contentDescription="@string/txt_cc"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_localizacionCC4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/img_cc4"
+                    app:layout_constraintEnd_toStartOf="@+id/tv_numTiendasCC4"
+                    app:layout_constraintBottom_toBottomOf="@id/img_cc4"
+                    android:text="@string/localizacionCC4"
+                    android:textSize="@dimen/tam_texto"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_nombreCC4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@id/img_cc4"
+                    app:layout_constraintBottom_toTopOf="@id/tv_localizacionCC4"
+                    android:text="@string/nombreCC4"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_numTiendasCC4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="@string/numTiendasCC1"
+                    android:layout_margin="@dimen/common_padding"
+                    android:padding="@dimen/common_padding"
+                    android:background="@color/white"
+
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
